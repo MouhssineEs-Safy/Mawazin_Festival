@@ -12,15 +12,25 @@ const App = () => {
     <div className="Navbar">
       <img src={logo_light} alt="#" className="logo" />
       <ul>
-        <li>Home</li>
-        <li>Programme</li>
-        <li>Détail Artiste </li>
-        <li>Mon Planning</li>
-        <li>Mon Passeport</li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Programme</a>
+        </li>
+        <li>
+          <a href="#">Détail Artiste</a>
+        </li>
+        <li>
+          <a href="#">Mon Planning</a>
+        </li>
+        <li>
+          <a href="#">Mon Passeport</a>
+        </li>
       </ul>
 
       <div className="search-Box">
-        <input type="text" placeholder="Search" />
+        <input type="search" placeholder="Search" />
         <img src={search_icon_light} alt="#" />
       </div>
 
