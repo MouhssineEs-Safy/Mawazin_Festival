@@ -1,40 +1,12 @@
 import React from "react";
 import Navbar from "./component/Navbar.jsx";
-import logo_light from "../src/assets/logo-black.png";
-import logo_dark from "../src/assets/logo-white.png";
-import search_icon_light from "../src/assets/search-w.png";
-import search_icon_dark from "../src/assets/search-b.png";
-import toogle_light from "../src/assets/night.png";
-import toogle_dark from "../src/assets/day.png";
 
 const App = () => {
   return (
-    <div className="Navbar">
-      <img src={logo_light} alt="#" className="logo" />
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Programme</a>
-        </li>
-        <li>
-          <a href="#">Détail Artiste</a>
-        </li>
-        <li>
-          <a href="#">Mon Planning</a>
-        </li>
-        <li>
-          <a href="#">Mon Passeport</a>
-        </li>
-      </ul>
-
-      <div className="search-Box">
-        <input type="search" placeholder="Search" />
-        <img src={search_icon_light} alt="#" />
+    <div>
+      <div>
+        <Navbar />
       </div>
-
-      <img src={toogle_light} alt="#" className="Toggle-Icon" />
     </div>
   );
 };
