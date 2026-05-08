@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 50px;
   padding: 0;
   box-sizing: border-box;
   border-radius: 50px;
@@ -15,5 +15,5 @@
 }
 
 .container.dark {
-  background: #222;
+  background: #000000;
 }
